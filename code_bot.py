@@ -3,7 +3,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 import telebot
 
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(your bot token)
 
 @bot.message_handler(commands=['cmd'])
 def send_keys(message):
